@@ -1,3 +1,7 @@
+## 1.1.1
+
+- Added example and documentation
+
 ## 1.1.0
 
 - Added HorizechCommon class to access everything.

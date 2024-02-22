@@ -21,6 +21,30 @@ Contains themes and other elements common to all Horizech applications
 
 ## Getting started
 
+This package works for applications made using flutter_up package so please make sure you are following flutter_up documentation when setting up your project
+
 ## Usage
 
+```dart
+class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return UpApp(
+      theme: HorizechCommon().themes.theme2024Dark, // This theme is provided by horizech_flutter_common package
+      initialRoute: '/home',
+      upRoutes: [
+        UpRoute(
+          path: '/home',
+          pageBuilder: (BuildContext context, UpRouterState state) =>
+              const HomePage(),
+        )
+      ],
+      title: 'ThemeApp',
+    );
+  }
+}
+```
+
 ## Additional information
+
+Note: This package is meant to be used by Horizech company applications so we will not provide any help or support to third party users.
