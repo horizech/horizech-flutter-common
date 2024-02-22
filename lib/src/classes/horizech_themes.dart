@@ -8,17 +8,17 @@ import 'package:horizech_flutter_common/src/themes/2024/theme_2024_light.dart'
 import 'package:horizech_flutter_common/src/themes/2024/theme_2024_dark.dart'
     as theme_2024_dark;
 
-class Themes {
+class HorizechThemes {
   final UpThemeData theme2023Light = theme_2023_light.theme2023Light;
   final UpThemeData theme2023Dark = theme_2023_dark.theme2023Dark;
   final UpThemeData theme2024Light = theme_2024_light.theme2024Light;
   final UpThemeData theme2024Dark = theme_2024_dark.theme2024Dark;
 
-  static final Themes _themes = Themes._internal();
+  static final HorizechThemes _horizechThemes = HorizechThemes._internal();
 
-  factory Themes() {
-    return _themes;
+  factory HorizechThemes() {
+    return _horizechThemes;
   }
 
-  Themes._internal();
+  HorizechThemes._internal();
 }
