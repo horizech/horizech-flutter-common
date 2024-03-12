@@ -1,3 +1,7 @@
+## 1.2.0
+
+- Updated flutter_up version to 4.0.1
+
 ## 1.1.1
 
 - Added example and documentation
