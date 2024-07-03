@@ -1,8 +1,8 @@
 name: horizech_flutter_common
 description: Horizech Flutter Common library which contains elements used in all Horizech Flutter applications like themes and other UI elements.
-version: 1.2.0
+version: 1.2.1
 homepage: https://horizech.com
-publish_to: none
+# publish_to: none
 environment:
   sdk: ">=3.1.5 <4.0.0"
   flutter: ">=1.17.0"
