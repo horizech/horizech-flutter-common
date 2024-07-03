@@ -1,3 +1,7 @@
+## 1.2.1 (unreleased)
+
+- Updated flutter_up version to 5.0.0
+
 ## 1.2.0
 
 - Updated flutter_up version to 4.0.1

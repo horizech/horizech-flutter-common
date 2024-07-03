@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_up: ^4.0.1
+  flutter_up: ^5.0.0
   # flutter_up:
   #   path: ../flutter_up
 

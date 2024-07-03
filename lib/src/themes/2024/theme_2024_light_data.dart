@@ -40,6 +40,7 @@ UpStyle primaryStyle = UpThemes.generateStyleByMaterial(
   baseColor: baseMaterialColor,
 ).copyWith(
   UpStyle(
+    scaffoldBodyColor: baseColor,
     datePickerOnSurfaceColor: contrastBaseColor,
     datePickerPrimaryColor: primaryColor,
     datePickerSurfaceColor: baseMaterialColor.shade200,
@@ -53,7 +54,8 @@ UpStyle primaryStyle = UpThemes.generateStyleByMaterial(
     radioButtonLabelColor: contrastBaseColor,
     radioButtonBorderColor: helperColor,
     checkboxBorderColor: helperColor,
-    appBarColor: baseColor,
+    appBarColor: baseMaterialColor.shade600,
+
     textfieldFilledColor: const Color.fromRGBO(255, 255, 255, 1),
     alertDialogShapeBorder:
         RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
@@ -91,7 +93,8 @@ UpStyle primaryStyle = UpThemes.generateStyleByMaterial(
     listTileTextColor: contrastBaseColor,
     listTileColor: Colors.transparent,
     listTileSelectedTileColor: primaryColor,
-    listTileSelectedColor: UpThemes.getContrastColor(primaryColor),
+    listTileSelectedIconColor: UpThemes.getContrastColor(primaryColor),
+    listTileSelectedTextColor: UpThemes.getContrastColor(primaryColor),
     listTileIconColor: contrastBaseColor,
     expansionTileCollapsedIconColor: contrastBaseColor,
     expansionTileIconColor: contrastBaseColor,
